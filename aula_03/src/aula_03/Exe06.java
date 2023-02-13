@@ -15,14 +15,14 @@ public class Exe06 {
 			numero = leia.nextInt();
 			
 			if(numero % 3 == 0) {
-				soma = soma + numero;
+				soma += numero;
 				quantidade++;
 			}
 			
-		}while (valor != 0);
+		}while (numero != 0);
 		
 		media = soma/quantidade;
-		System.out.println("A media de todos os ");
+		System.out.printf("A média de todos os números múltiplos de 3 é: " + media);
 
 	}
 
