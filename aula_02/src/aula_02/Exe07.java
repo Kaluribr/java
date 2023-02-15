@@ -12,7 +12,7 @@ public class Exe07 {
 		int op;
 		
 		System.out.println("Primeiro valor: ");
-		n1 = 
+		 
 		
 	}
 
