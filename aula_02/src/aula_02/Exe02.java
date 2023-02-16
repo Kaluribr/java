@@ -20,7 +20,8 @@ public class Exe02 {
 			System.out.println("O número " + n + " é par e negativo!");
 		if (n % 2 != 0 && n > 0)
 			System.out.println("O número " + n + " é impar e positivo!");
-
+		
+		leia.close();
 	}
 
 }

@@ -22,6 +22,7 @@ public class SalarioBruto {
 			
 			System.out.printf("Seu Sálario Liquido é: %s", SalaL);
 			
+			leia.close();
 		}
 		
 }

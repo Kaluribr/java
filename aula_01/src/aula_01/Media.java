@@ -22,5 +22,6 @@ public class Media {
 		
 		System.out.printf("A média do seu Aluno é : %.1f", media);
 		
+		leia.close();
 	}
 }

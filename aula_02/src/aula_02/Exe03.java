@@ -27,7 +27,7 @@ public class Exe03 {
 				System.out.println(nome + " não está apto para doar sangue!");
 			}
 		}else
-			System.out.println(nome + " está apta para doar sangue!");
+			System.out.println(nome + " está apto(a) para doar sangue!");
 	}
 
 }

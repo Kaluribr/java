@@ -18,6 +18,7 @@ public class Atvd1 {
 		
 		System.out.printf("Seu Novo salario e de: %s",soma);
 		
+		leia.close();
 	}
 
 }
