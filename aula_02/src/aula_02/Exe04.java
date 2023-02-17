@@ -50,7 +50,7 @@ public class Exe04 {
 					System.out.println("Vaca");
 			}
 		}
-
+			leia.close();
 	}
 
 }
