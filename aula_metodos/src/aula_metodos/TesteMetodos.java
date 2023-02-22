@@ -15,7 +15,6 @@ public class TesteMetodos {
 		metodoPrivado();
 		
 	metodoPublicoPacote1();
-	metodoFriendlyPacote1();
 		
 		System.out.println(soma(2, 4));
 	}

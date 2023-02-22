@@ -25,12 +25,12 @@ public class Cliente {
 		this.nome = nome;
 	}
 
-	public int getCpf() {
+	public long getNumero() {
 		return numero;
 	}
 
-	public void setCpf(char cpf) {
-		this.numero = cpf;
+	public void setNumerp(int numero) {
+		this.numero = numero;
 	}
 
 	public String getEndereco() {
@@ -46,7 +46,7 @@ public class Cliente {
 	}
 
 	public void setCredito(float credito) {
-		this.credito = credito;
+		this.credito += credito;
 	}
 
 	public float getSaldo() {
@@ -57,7 +57,7 @@ public class Cliente {
 		this.saldo = saldo;
 	}
 	
-	public void vizualizar() {
+	public void visualizar() {
 		
 		System.out.println("***********************************");
 		System.out.println("         DADOS DO CLIENTE          ");

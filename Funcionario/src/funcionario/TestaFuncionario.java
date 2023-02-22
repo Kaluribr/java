@@ -16,6 +16,8 @@ public class TestaFuncionario {
 		f1.setSalario(2000.0f);
 		
 		f1.vizualizar();
+		
+		leia.close();
 
 	}
 
