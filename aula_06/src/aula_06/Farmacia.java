@@ -1,22 +1,24 @@
 package aula_06;
 
-public class Farmacia {
+public abstract class Farmacia {
 	// Nao tem main porque vai definir um modelo de dados
-	
- 	private long id; // private porque ira encapcular
- 	private String nome; // String com S maiusculo porque e uma classe (objeto)
- 	private String nomeComercial;
- 	private String fabricante;
- 	private String foto;
- 	private float preco;
-	
- 	public Farmacia(long id, String nome, String nomeComercial, String fabrivante, String foto, float preco) {
+
+	private long id; // private porque ira encapcular
+	private String nome; // String com S maiusculo porque e uma classe (objeto)
+	private String nomeComercial;
+	private String fabricante;
+	private String foto;
+	private float preco;
+	private int tipo;
+
+	public Farmacia(long id, String nome, String nomeComercial, String fabrivante, String foto, float preco, int tipo) {
 		this.id = id;
 		this.nome = nome;
 		this.nomeComercial = nomeComercial;
 		this.fabricante = fabrivante;
 		this.foto = foto;
 		this.preco = preco;
+		this.tipo = tipo;
 	}
 
 	public long getId() {
@@ -66,8 +68,26 @@ public class Farmacia {
 	public void setPreco(float preco) {
 		this.preco = preco;
 	}
- 	
- 	public void visualizar() {
+
+	public int getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(int tipo) {
+		this.tipo = tipo;
+	}
+	
+	public abstract void reajuste(float percentual);
+
+	public void visualizar() {
+		
+		String tipo = "";
+		
+		switch(this.tipo) {
+		case 1 -> tipo = "Medicamento";
+		case 2 -> tipo = "Perfumaria";
+		}
+		
  		System.out.println("*****************************************");
  		System.out.println("           Dados do Produto              ");
  		System.out.println("*****************************************");
@@ -77,8 +97,8 @@ public class Farmacia {
  		System.out.println("\nFbricnte: " + this.fabricante);
  		System.out.println("\nFoto: " + this.foto);
  		System.out.println("\nPreco: " + this.preco);
+ 		System.out.println("\nCategotia: " + tipo);
  		
  	}
- 	
- 	
+
 }

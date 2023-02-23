@@ -3,7 +3,7 @@ package aula_04;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Exe02 {
+public class Exe01Aprimorado {
 
 	public static void main(String[] args) {
 		

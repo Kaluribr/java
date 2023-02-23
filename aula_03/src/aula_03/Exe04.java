@@ -31,7 +31,7 @@ public class Exe04 {
 			if (categoria == 3 && sexo == 1 && idade > 40)
 				mobile ++;
 			
-			if (categoria == 4 &&  sexo == 2 && idade < 30)
+			if (categoria == 4 && sexo == 2 && idade < 30)
 				full ++;
 			
 			System.out.println("Deseja continuar? (S/N)");
@@ -41,7 +41,7 @@ public class Exe04 {
 			System.out.println("Total de pessoas desenvolvedoras Backend: "+ backend);
 			System.out.println("Total de mulheres desenvolvedoras Frontend: "+ frontend);
 			System.out.println("Total de homens desenvolvedoras Mobile: "+ mobile);
-			System.out.println("Total de pessoas desenvolvedoras Backend: "+ full);
+			System.out.println("Total de pessoas desenvolvedoras FullStack: "+ full);
 			
 		}
 		
