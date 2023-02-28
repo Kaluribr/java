@@ -7,8 +7,7 @@ public class TestaCliente {
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
 		
-		Cliente c1 = new Cliente("Danilo", 1, "Rua dos bobos", 4000.0f, 0.0f);
-		
+		Cliente c1 = new Cliente("Danilo", 1, "Rua dos bobos", 4000.0f, 0.0f, 28);
 		
 		c1.visualizar();
 		
@@ -20,11 +19,11 @@ public class TestaCliente {
 		
 		c1.visualizar();
 		
-		PessoaJuridica pj1 = new PessoaJuridica("Nilo de Moraes", 2, "Rua dos bobos", 100000.0f, 0, 1234, "Livros");
+		PessoaJuridica pj1 = new PessoaJuridica("Nilo de Moraes", 2, "Rua dos bobos", 100000.0f, 0, 1234, "Livros", 28);
 		
 		pj1.visualizar();
 		
-		PessoaFisica pf1 = new PessoaFisica("Nilo de Moraes", 1, "Rua dos bobos", 100000.0f, 0, 1234);
+		PessoaFisica pf1 = new PessoaFisica("Nilo de Moraes", 1, "Rua dos bobos", 100000.0f, 0, 1234, 28);
 		
 		pf1.visualizar();
 		

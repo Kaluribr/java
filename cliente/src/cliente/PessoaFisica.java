@@ -4,8 +4,8 @@ public class PessoaFisica extends Cliente{
 	
 	private long cpf;
 	
-	public PessoaFisica(String nome, int numero, String endereco, float credito, float saldo, long cpf) {
-		super(nome, numero, endereco, credito, saldo);
+	public PessoaFisica(String nome, int numero, String endereco, float credito, float saldo, long cpf, int idade) {
+		super(nome, numero, endereco, credito, saldo, idade);
 		this.cpf = cpf;
 	}
 
